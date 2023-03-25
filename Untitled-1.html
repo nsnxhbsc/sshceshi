@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Untitled-2.css">
+</head>
+<body>
+    <div id="da">
+        <div id="xiao">
+            <ul id="left">
+                <li><a href="#">111111</a></li>
+                <li><a href="#">222222</a></li>
+            </ul>
+            <ul id="right">
+                <li id="xubo1">
+                    <span>个人中心</span>
+                <div id="xubo2">
+                    <a href="#">已完成订单</a>
+                    <a href="#">22222</a>
+                    <a href="#">33333</a>
+                    <a href="#">44444</a>
+                    <a href="#">55555</a>
+                </div>
+                </li>
+                <li><span>|</span></li>
+                <li><span>bbbbbb</span></li>
+                <li><span>|</span></li>
+                <li><span>cccccc</span></li>
+                <li><span>|</span></li>
+                <li><span>dddddd</span></li>
+                <li><span>|</span></li>
+                <li><span>eeeeee</span></li>
+            </ul> 
+        </div>
+    </div>
+    <div class="bbb"></div>
+</body>
+<script>
+    var xubo1=document.getElementById("xubo1")
+    console.log(xubo1)
+
+    var xubo2=document.getElementById("xubo2")
+    console.log(xubo2)
+
+    xubo1.onmousemove=function(){
+        xubo2.style.display="block"    
+    }
+
+    xubo1.onmouseout=function(){
+        xubo2.style.display="none" 
+
+    }
+
+</script>
+
+</html>
